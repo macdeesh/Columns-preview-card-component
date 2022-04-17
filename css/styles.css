@@ -1,0 +1,130 @@
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9rem;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main {
+width: 840px;
+margin-bottom: 1rem;
+
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.3rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+
+main a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+}
+
+main a:hover {
+  background-color: inherit;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 1rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-1::before {
+  content: url("../images/icon-sedans.svg");
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 1rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-2::before {
+  content: url("../images/icon-suvs.svg");
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 1rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-3::before {
+  content: url("../images/icon-luxury.svg");
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.text-div {
+  margin-bottom: 3rem;
+}
+
+.button {
+  margin: 2rem 0;
+}
+
+.button-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+   font-size: 11px; text-align: center;
+ }
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+@media (max-width:880px) {
+
+  main {
+    width: 90%;
+    margin: 2rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
