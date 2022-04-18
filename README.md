@@ -14,10 +14,11 @@ This is a solution to the [3-column preview card component](https://www.frontend
 
 ## What I learned
 
-- I tried to make the borders of the card container rounded with ```border-radius``` but for some reason it didn't work so i added ```overflow: hidden;```
-  and it was fixed.
+- I tried to make the borders of the card container rounded with ```border-radius``` but for some reason it didn't work, so I added :
+- ```overflow: hidden;```
 
-- To add an obvious focus style to the interactive element in this case a button, I used ```:focus-visible```  to change the default styling for keyboard     users :
+
+- To add an obvious focus style to the interactive element, in this case a button, I used ```:focus-visible```  and changed the default styling for keyboard users :
 
 
  ```css
