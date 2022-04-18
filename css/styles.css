@@ -31,7 +31,7 @@ main a {
   text-decoration: none;
   background-color: hsl(0, 0%, 95%);
   padding: 1rem 1.5rem;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 main a:hover {
