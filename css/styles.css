@@ -8,13 +8,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 main {
-width: 840px;
-margin-bottom: 1rem;
-
+  width: 840px;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -30,10 +28,10 @@ p {
 }
 
 main a {
-    text-decoration: none;
-    background-color: hsl(0, 0%, 95%);
-    padding: 1rem 1.5rem;
-    border-radius: 20px;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
 }
 
 main a:hover {
@@ -49,43 +47,39 @@ main a:hover {
   overflow: hidden;
 }
 
-.card-1 {
-  background-color: hsl(31, 77%, 52%);
+.card {
   padding: 1rem 2.5rem;
   display: flex;
   flex-direction: column;
 }
 
-.heading-1::before {
-  content: url("../images/icon-sedans.svg");
-  display: block;
-  margin-bottom: 2rem;
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
 }
 
 .card-2 {
   background-color: hsl(184, 100%, 22%);
-  padding: 1rem 2.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.heading-2::before {
-  content: url("../images/icon-suvs.svg");
-  display: block;
-  margin-bottom: 2rem;
 }
 
 .card-3 {
   background-color: hsl(179, 100%, 13%);
-  padding: 1rem 2.5rem;
-  display: flex;
-  flex-direction: column;
+}
+
+.heading::before {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.heading-1::before {
+  content: url("../images/icon-sedans.svg");
+}
+
+.heading-2::before {
+  content: url("../images/icon-suvs.svg");
 }
 
 .heading-3::before {
   content: url("../images/icon-luxury.svg");
-  display: block;
-  margin-bottom: 2rem;
 }
 
 .text-div {
@@ -109,14 +103,15 @@ main a:hover {
 }
 
 .attribution {
-   font-size: 11px; text-align: center;
- }
+  font-size: 11px;
+  text-align: center;
+}
+
 .attribution a {
-   color: hsl(228, 45%, 44%);
- }
+  color: hsl(228, 45%, 44%);
+}
 
 @media (max-width:880px) {
-
   main {
     width: 90%;
     margin: 2rem;
@@ -126,5 +121,4 @@ main a:hover {
     display: flex;
     flex-direction: column;
   }
-
 }
